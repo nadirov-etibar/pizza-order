@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="bg-color">
+    <nav class="d-flex justify-content-end align-content-center nav navbar">
+        <ul class="d-flex justify-content-between align-content-center list-unstyled ul_menu col-md-12 col-lg-6 col-sm-12">
+            <li class="dropdown_icon" id="dropdown">&#9776;</li>
+            <li class="menu_list "><a href="index.html" class="menu_link">Home</a></li>
+            <li class="menu_list"><a href="menu.html" class="menu_link">Menu/Order</a></li>
+            <li class="menu_list"><a href="contact.html" class="menu_link">Contact</a></li>
+            <li id="shopping_cart"><a href="cart.html"><i class="fas fa-shopping-cart"><span id="span-count"></span></i></a></li>
+        </ul>
+    </nav>
+    <div class="hidden" id="burger_menu">
+        <ul class="burger_ul" id="ul_menu">
+            <li class="burger_list"><a href="index.html" class="burger_link">Home</a></li>
+            <li class="burger_list"><a href="menu.html" class="burger_link">Menu/Order</a></li>
+            <li class="burger_list"><a href="contact.html" class="burger_link">Contact</a></li>
+        </ul>
+    </div>
+</header>
+<main>
+<section>
+    <div class="container">
+        <h2 class="head-name text-center">Pizza</h2>
+        <div class="row d-flex justify-content-center">
+            <div class="pizza col-md-4 col-lg-3 col-sm-6 col-12 d-flex flex-column">
+                <div class="d-flex justify-content-center menu_img">
+                    <img src="images/buffalo-chicken.jpg" width="247" alt="" id="" >
+                </div>
+                <div class="menu_info">
+                    <h2 class="pizza_name">Buffalo Chicken</h2>
+                    <p class="description">Grilled chicken, buffalo sauce, mozzarella, cheddar, red onions</p>
+                </div>
+                <div class="price_info d-flex justify-content-between align-items-center">
+                    <span class="text">Price: <span>&dollar;</span><span class="price">9.99</span></span>
+                    <button class="add-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="pizza col-md-4 col-lg-3 col-sm-6 col-12 d-flex flex-column">
+                <div class="d-flex justify-content-center menu_img">
+                    <img src="images/chicken-bbq.jpg" width="247" alt="">
+                </div>
+                <div class="menu_info">
+                    <h2 class="pizza_name">Chicken BBQ</h2>
+                    <p class="description">Grilled chicken, bbq sauce, bacon, mozzarella, fresh basil, red onions</p>
+                </div>
+                <div class="price_info d-flex justify-content-between align-items-center">
+                    <span class="text">Price: <span>&dollar;</span><span class="price">10.99</span></span>
+                    <button class="add-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="pizza col-md-4 col-lg-3 col-sm-6 col-12 d-flex flex-column">
+                <div class="d-flex justify-content-center menu_img">
+                    <img src="images/supreme.jpg" width="247" alt="">
+                </div>
+                <div class="menu_info">
+                    <h2 class="pizza_name">Supreme</h2>
+                    <p class="description">Pepperoni, fresh basil, mozzarella, italian sausage, bacon, mushrooms, red onions, black olives, green peppers, marinara sauce</p>
+                </div>
+                <div class="price_info d-flex justify-content-between align-items-center">
+                    <span class="text">Price: <span>&dollar;</span><span class="price">15.99</span></span>
+                    <button class="add-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="pizza col-md-4 col-lg-3 col-sm-6 col-12 d-flex flex-column">
+                <div class="d-flex justify-content-center menu_img">
+                    <img src="images/chicken-club.jpg" width="247" alt="">
+                </div>
+                <div class="menu_info">
+                    <h2 class="pizza_name">Chicken Club</h2>
+                    <p class="description">Grilled chicken, cherry tomatoes, ricotta, fresh parsley, mozzarella, bacon, red onions</p>
+                </div>
+                <div class="price_info d-flex justify-content-between align-items-center">
+                    <span class="text">Price: <span>&dollar;</span><span class="price">12.99</span></span>
+                    <button class="add-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="pizza col-md-4 col-lg-3 col-sm-6 col-12 d-flex flex-column">
+                <div class="d-flex justify-content-center menu_img">
+                    <img src="images/hawaiian.jpg" width="247" alt="" >
+                </div>
+                <div class="menu_info">
+                    <h2 class="pizza_name">Hawaiian</h2>
+                    <p class="description">Ham, fresh pineapple, mozzarella, marinara sauce, fresh basil</p>
+                </div>
+                <div class="price_info d-flex justify-content-between align-items-center">
+                    <span class="text">Price: <span>&dollar;</span><span class="price">9.99</span></span>
+                    <button class="add-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="pizza col-md-4 col-lg-3 col-sm-6 col-12 d-flex flex-column">
+                <div class="d-flex justify-content-center menu_img">
+                    <img src="images/sausage.jpg" width="247" alt="" >
+                </div>
+                <div class="menu_info">
+                    <h2 class="pizza_name">Sausage</h2>
+                    <p class="description">Double italian sausage, mozzarella, marinara sauce, fresh basil</p>
+                </div>
+                <div class="price_info d-flex justify-content-between align-items-center">
+                    <span class="text">Price: <span>&dollar;</span><span class="price">11.99</span></span>
+                    <button class="add-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="pizza col-md-4 col-lg-3 col-sm-6 col-12 d-flex flex-column">
+                <div class="d-flex justify-content-center menu_img">
+                    <img src="images/pepperoni.jpg" width="247" alt="" >
+                </div>
+                <div class="menu_info">
+                    <h2 class="pizza_name">Pepperoni</h2>
+                    <p class="description">Double pepperoni, mozzarella, marinara sauce, fresh basil</p>
+                </div>
+                <div class="price_info d-flex justify-content-between align-items-center">
+                    <span class="text">Price: <span>&dollar;</span><span class="price">11.99</span></span>
+                    <button class="add-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="pizza col-md-4 col-lg-3 col-sm-6 col-12 d-flex flex-column">
+                <div class="d-flex justify-content-center menu_img">
+                    <img src="images/the-meats.jpg" width="247" alt="" >
+                </div>
+                <div class="menu_info">
+                    <h2 class="pizza_name">The Meats</h2>
+                    <p class="description">Pepperoni, ham, italian sausage, mozzarella, bacon, marinara sauce, fresh basil</p>
+                </div>
+                <div class="price_info d-flex justify-content-between align-items-center">
+                    <span class="text">Price: <span>&dollar;</span><span class="price">13.99</span></span>
+                    <button class="add-btn">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+</main>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
