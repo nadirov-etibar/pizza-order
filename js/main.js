@@ -279,6 +279,9 @@ if (localStorage.getItem("count") > 0) {
     totalDiv.classList.add("flex-column");
 
 
+    let orderBtn = document.createElement("button");
+    orderBtn.classList.add("order-btn");
+    orderBtn.innerHTML = "Order";
 
     exchange.append(dollarBtn);
     exchange.append(euroBtn);
@@ -287,6 +290,7 @@ if (localStorage.getItem("count") > 0) {
     totalPriceDiv.append(exchange);
     totalPriceDiv.append(totalDiv);
     cartPage.append(totalPriceDiv);
+    cartPage.append(orderBtn);
 }
 
 let minusBtn = document.getElementsByClassName("btn-minus");

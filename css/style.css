@@ -178,6 +178,16 @@
     color: white;
 }
 
+
+.order-btn{
+    border: 1px solid #D98E41;
+    background: #D98E41;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+}
 /************MOBILE************/
 
 @media screen and (max-width: 680px) {
