@@ -134,10 +134,10 @@ for (let i = 0; i < add.length; i++){
                 let pizzaLocalId = JSON.parse(localStorage.getItem("pizzaId"));
                 let pizzaLocalCount = pizzaLocal.pizzaCount;
                 let click = pizzaLocalId.indexOf(pizzaIdArr);
-                let price = pizza.childNodes[5].childNodes[1].childNodes[1].textContent;
+                let price = pizzaLocal.pizzaPrice;
 
                 let newSum = parseInt(pizzaLocalCount[click]) + 1;
-                let amount = price*newSum;
+                let amount = parseFloat(price[click])*newSum;
 
                 pizzaLocal.pizzaCount.splice([click], 1, newSum);
                 pizzaLocal.pizzaTotal.splice([click], 1, amount);
