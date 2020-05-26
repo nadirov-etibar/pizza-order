@@ -272,10 +272,12 @@ if (localStorage.getItem("count") > 0) {
     totalPriceDiv.classList.add("col-md-9");
     totalPriceDiv.classList.add("col-sm-12");
     totalPriceDiv.style.marginTop = "50px";
+    totalPriceDiv.style.marginBottom = "50px";
 
     let totalDiv = document.createElement("div");
     totalDiv.classList.add("d-flex");
     totalDiv.classList.add("flex-column");
+
 
 
     exchange.append(dollarBtn);
